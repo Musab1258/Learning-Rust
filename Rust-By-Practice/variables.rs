@@ -98,8 +98,6 @@ fn main() {
 
 
 // 8
-
-// Fix the error below with least amount of modification
 fn main() {
     let (mut x, y) = (1, 2);
     x += 2;
@@ -112,7 +110,6 @@ fn main() {
 
 
 // 9
-
 fn main() {
     let (x, y);
     (x,..) = (3, 4);
