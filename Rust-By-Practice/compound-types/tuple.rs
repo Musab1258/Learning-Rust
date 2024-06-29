@@ -11,3 +11,20 @@ fn main() {
 
 
 // 2
+fn main() {
+    let t = ("i", "am", "sunface");
+    assert_eq!(t.2, "sunface");
+
+    println!("Success!");
+}
+
+
+// 3
+fn main() {
+    let too_long_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12);
+    println!("too long tuple: {:?}", too_long_tuple);
+}
+
+
+// 4
+
